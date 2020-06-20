@@ -1,0 +1,144 @@
+.logo-link {
+    font-family: Raleway;
+    font-style: normal;
+    color: var(--color_black);
+    font-weight: 700;
+    font-size: 26px; 
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 86px;
+  }
+  .logo-lnk {
+    font-family: Raleway;
+    font-style: normal;
+    color: var(--color_black);
+    font-weight: 700;
+    font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-right: 86px;
+  }
+  
+  .web {
+    color: var(--color_blu);
+  }
+  
+  .nav-links .links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color_black);
+    /* margin: 0;
+    margin-right: 30px; */
+  }
+  .nav-links .item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+  
+  .nav-links .emeil {
+    color: var(--color_text);
+  }
+  .decore{
+    display: inline-block;
+    height: 12px ;
+    width: 16px;
+    align-items: center;
+   
+    margin-bottom: -4px;
+    margin-right: 10px;
+    
+  }
+  .decor{
+    display: inline-block;
+    height: 15px ;
+    width: 10px;
+    margin-right: 10px;
+    
+    align-items: center;
+    margin-bottom: -4px;
+  }
+  .how:hover, .how:focus{
+    --color5:#2196F3;
+    cursor: pointer;
+    transition-duration:250ms;
+  }
+  .nav-links .phon {
+    color: var(--color_text);
+  }
+  
+  .nav-links .current {
+    color: var(--color_blu);}
+  .item {
+    text-decoration: none;
+    position: relative;
+    
+  }
+  
+  .hey{
+    height: 100%;
+  }
+  .polosa::after{
+    display: block;
+    content: '';
+    width: 100%;
+    background: $color_blu;
+  border-radius: 2px;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+  }
+  .itema{
+   
+    margin-right: 30px;
+  }
+  .links:hover,
+  .links:focus {
+    color: $color_blu;
+    transition-duration:250ms;
+  }
+  
+  .head {
+    display: inline-block;
+    display: flex; 
+    /* width: 100%; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $color_white;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 80px;
+  }
+  .nav {
+    display: block;
+    display: flex;
+    align-items: center;
+  } 
+  
+  .nav-links {
+    display: block;
+    display: flex;
+    align-items: center;
+   
+  }
+  .list {
+    display: block;
+    display: flex;
+    flex: end;
+    margin-left: auto;
+  }
+  .mar{
+    margin: 0;
+    margin-left: 30px;
+  }
+  
