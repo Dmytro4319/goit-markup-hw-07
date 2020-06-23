@@ -1,41 +1,3 @@
-.onece{
-    margin-right: 94px;
-    padding: 0;
-    
-  }
-  .marg{
-    margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;}
-  .left{
-    text-align: left;
-    text-transform: uppercase;
-    padding-left: 0;
-  }
-  
-  .two {
-    display: flex;
-  }
-  .stud {
-    color: $colorwhite;
-  }
-  .lists {
-    list-style: none;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1.71;
-      letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
-  }
-  /* .stu {
-    padding-top: 18px;
-    padding-bottom: 21px;
-    text-align: center;
-    background-color: var(--color_black);
-    color: color: rgba(255, 255, 255, 0.4);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  } */
   
 .card {
     background: $colorwhite;
@@ -109,54 +71,10 @@
   
   }}
   
-  button{
-    padding: 0;
-    border: none;
-    font-family: $texmain;
-    background-color: transparent;
-   
-    cursor: pointer;
-    /* font-weight: 500;
-  font-size: 16px;
-  line-height: 26px; */
-  }
-  .bi:hover, .bi:focus {
-    color: $colorwhite;
-    background-color: $colorblu;
-    cursor: pointer;
-    transition-duration:250ms;
-  }
-  .psp{
-    padding-top: 94px;
-    padding-bottom:94px;
-    border-top: 1px solid #ECECEC;
-  }
-  .knopka {
-    display: block;
-    text-align: center;
-    
-    
-    
-  }
-  .knopk {
-    
-    height: 38px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25px; 
-    background: #f5f4fa;
-    border-radius: 4px;
-    text-align: center;
-    /* letter-spacing: 0.03em; */
-    padding-left: 22px;
-    padding-right: 22px;
-    margin-right: 8px;
-    color: #212121;
-    
-  }
-  .knopka .knopk:last-child {
-    margin-right: 0;
-  }
+  
+ 
+  
+ 
   .line-blo:last-child .doit-now {
     margin-right: 0;
   }
