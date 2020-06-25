@@ -7,7 +7,7 @@
    
   }
   .containe {
-    display: flex;
+    display: flex; 
     flex-direction: row;
     text-align: center;
     align-items: center;
@@ -71,13 +71,10 @@
   
   }}
   
-  
- 
-  
- 
-  .line-blo:last-child .doit-now {
+  .line-blo{
+  &:last-child .doit-now {
     margin-right: 0;
-  }
+  }}
   .cor{
     position: relative;
   }
@@ -121,11 +118,12 @@
   }
   }
   
-  .doit-now:hover,.doit-now:focus{
+  .doit-now{
+  &:hover,&:focus{
     cursor: pointer;
     transition-duration:250ms;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-  }
+  }}
   @keyframes boxik{
     0%{
       transform: translateY(100%);

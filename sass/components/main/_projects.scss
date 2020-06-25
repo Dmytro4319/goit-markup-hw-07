@@ -45,9 +45,11 @@
     border: 1px solid #2196F3;
     transition-duration:250ms;
   }}
-  .ho:hover, .ho:focus{
+  .ho
+  
+  {&:hover, &:focus{
     --color3:#2196F3;
     cursor: pointer;
     
     transition-duration:250ms;
-  }
+  }}

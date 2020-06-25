@@ -22,7 +22,8 @@ border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;}
   
-  .fly::after{
+  .fly{
+    &::after{
     display: block;
   content: '';
   width: 24px;
@@ -34,7 +35,7 @@ border-radius: 4px;
   background-position: center;
   
 
-}
+}}
 .socia {
   --color3:#ffffff;
   display: flex;
